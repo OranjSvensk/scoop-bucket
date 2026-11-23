@@ -1,0 +1,35 @@
+{
+  "version": "0.1.1",
+  "description": "Boxed-up local AI agents — run coding and assistant harnesses in an isolated Docker sandbox while your model runs locally.",
+  "homepage": "https://github.com/OranjSvensk/ezbx",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/OranjSvensk/ezbx/releases/download/v0.1.1/ezbx-v0.1.1-windows-amd64.zip",
+      "hash": "e6db4deb043e12e9a4963af0415dbd36731d2a35416d4163007912c8f4d4cdf9"
+    },
+    "arm64": {
+      "url": "https://github.com/OranjSvensk/ezbx/releases/download/v0.1.1/ezbx-v0.1.1-windows-arm64.zip",
+      "hash": "7c9220bc957d8ef7565bf37ef031a8f16f5b61d17f73e96e17d8fb3892afd13c"
+    }
+  },
+  "bin": "ezbx.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/OranjSvensk/ezbx/releases/download/v$version/ezbx-v$version-windows-amd64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/OranjSvensk/ezbx/releases/download/v$version/ezbx-v$version-windows-arm64.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/checksums.txt"
+    }
+  },
+  "notes": [
+    "Requires Docker Desktop (Engine 28+) and a local OpenAI-compatible inference engine (such as Strata, LM Studio, Ollama or llama.cpp).",
+    "Run 'ezbx init' to set up your first sandboxed box."
+  ]
+}
