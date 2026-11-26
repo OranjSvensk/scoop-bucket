@@ -1,16 +1,16 @@
 {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "description": "Boxed-up local AI agents — run coding and assistant harnesses in an isolated Docker sandbox while your model runs locally.",
     "homepage": "https://github.com/OranjSvensk/ezbx",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/OranjSvensk/ezbx/releases/download/v0.4.0/ezbx-v0.4.0-windows-amd64.zip",
-            "hash": "ae385415d618fcab4a715ef6a6645d070c1d5dddd562555848bebc029e3da8f7"
+            "url": "https://github.com/OranjSvensk/ezbx/releases/download/v0.5.0/ezbx-v0.5.0-windows-amd64.zip",
+            "hash": "273d32b3df2280aa86a67acc93ea09b1de960b5508deb0a37a0be97f153cbf98"
         },
         "arm64": {
-            "url": "https://github.com/OranjSvensk/ezbx/releases/download/v0.4.0/ezbx-v0.4.0-windows-arm64.zip",
-            "hash": "16ca45c889a23959b7f278dd98e65cc705b1f933a7f397819f1209b5291fc0b2"
+            "url": "https://github.com/OranjSvensk/ezbx/releases/download/v0.5.0/ezbx-v0.5.0-windows-arm64.zip",
+            "hash": "43fd3daef5ed146ce823fd103728e65729e5a98681e9d57600200b7e78979f17"
         }
     },
     "bin": "ezbx.exe",
